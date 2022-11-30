@@ -1,0 +1,47 @@
+body {
+  background-color: #333533;
+  color: #a2d2ff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px; 
+}
+
+img.pequeña {
+    width: 400px;
+    border-radius: 8px;
+
+}
+h1{
+    color:#8338ec;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+    h2{
+        color: #f15bb5;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 24px;
+            }
+            li.numero1{
+                color: #060;
+            }
+span.a{
+    color: #060;
+    font-weight:bolder;
+}
+
+
+
+a.primero_1{
+    font-size: 22px;
+    text-decoration: underline;
+    color:red
+}
+span.especial{
+    background-color:#000;
+    color:#FFF;
+}
+
+
+    
+
