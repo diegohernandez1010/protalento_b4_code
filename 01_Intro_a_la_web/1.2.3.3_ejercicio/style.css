@@ -1,5 +1,11 @@
 .chico{
-    width: 10px;
-    height: 20px;
-    color: brown;
+    width: 1600px;
+    height: 150px;
+    background-color:aqua;
+    padding: 10px;
+    margin: auto; 
+    margin-top: 30px;
+}
+body{
+    background-color: black;
 }
