@@ -3,53 +3,34 @@
   padding: 0;
   font-size: 1em;
   font-family: inherit;
-
-}
-
-.chico {
-  background-color: aqua;
-  margin-top: 70px;
-  height: 50px;
-  
-}
-
-.grande {
-  background-color: aqua;
-  display: block;
-  height: 100px
-}
-
-body {
   background-color: grey;
 }
 
-.container,
-.mediano,
-.azul,
-.margin-derecho,
-.margin-abajo {
-
-  margin: 10px 10px 10px;
-}
-
 .azul {
-  padding: 1px;
   background-color: aqua;
   
- 
-
 }
-
-.mediano {
-  height: 100px; width: 100px;
-  position: relatie;
+.chico{
+  height: 150px;
+  margin: 10px 20px 20px 20px;
+  width: auto; 
 }
-
-.margin-derecho {
-  width: 50px;
-  position: fied;
-
+.grande{
+  height: 300px;
+  margin: 20px 20px 20px 20px;
+  width: auto; 
 }
-.mediano, .azu, .margin-derecho{
-  height: 100px; width: 100px;
-}
+.container{
+  height: 300px;
+  margin: 20px 20px 20px 20px;
+  width: auto;
+  overflow: hidden;
+  }
+.mediano{
+  background-color:aqua;
+  margin: 20px 20px 20px 30px;
+  padding: 300px 1000px;
+  float:left;
+
+  
+ }
