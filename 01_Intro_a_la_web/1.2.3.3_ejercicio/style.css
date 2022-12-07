@@ -29,7 +29,8 @@
 .mediano{
   background-color:aqua;
   margin: 20px 20px 20px 30px;
-  padding: 300px 1000px;
+  width: 49%;
+  height: 300px;
   float:left;
 
   
