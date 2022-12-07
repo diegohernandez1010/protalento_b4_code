@@ -1,27 +1,66 @@
-body{
+.rojo {
+    background-color: red;
 }
 
 .padre {
-background-color: blue;
-    display:flex;
-    flex-direction: column;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hijo {
+    width: 30vw;
+    height: 120px;
+    margin-right: 20px;
+    position: ablute;
+}
+
+.hija {
+
+    width: 70vw;
+    height: 120px;
+    margin-bottom: 20px;
 
 }
-.hijo{
 
-    background-color: red;
-    width: 120vw;
-    height: 120px;
-    margin: 1px;
+.padre1 {
+    background-color: blue;
     display: flex;
+    flex-direction: row;
+}
+
+.primo {
+    width: 30vw;
+    height: 120px;
     margin-right: 20px;
 }
-    
-.hija{
-    background-color: red;
-    width: 300vw;
+
+.prima {
+    width: 70vw;
     height: 120px;
-    margin: 1px;
-    display: flex;
-    margin-bottom: 10px;
+
+}
+
+.blanco {
+    background-color: aliceblue;
+       /* margin right: ; 100vw; */
+    /* position: absolute; */
+    
+    
+
+}
+.margin-derecho{
+    margin-right:50px;
+    position: absolute;
+    width: 10vw;
+    height: 120px;
+   
+
+}
+/* .margin-izquierdo{ */
+    margin-left: 10vw;
+    width: 30vw;
+    height: 120px;
+    margin-right: 20px;
 }
