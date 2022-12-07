@@ -1,0 +1,27 @@
+body{
+}
+
+.padre {
+background-color: blue;
+    display:flex;
+    flex-direction: column;
+
+}
+.hijo{
+
+    background-color: red;
+    width: 120vw;
+    height: 120px;
+    margin: 1px;
+    display: flex;
+    margin-right: 20px;
+}
+    
+.hija{
+    background-color: red;
+    width: 300vw;
+    height: 120px;
+    margin: 1px;
+    display: flex;
+    margin-bottom: 10px;
+}
