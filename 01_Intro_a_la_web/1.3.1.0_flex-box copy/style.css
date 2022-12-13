@@ -8,7 +8,8 @@
     flex-wrap:nowrap;
     justify-content:space-between;
     /* position: absolute; */
-    height: 550px;
+    height: 555px;
+    
 }
 
 .blanco {
@@ -16,19 +17,19 @@
 }   
 
 .derecho {
-    width: 45vw;
+    width: 30vw;
     height: 450px;
     /* margin-right: 20px; */
 }
 
 
 .hijo {
-    width: 40vw;
+    width: 28vw;
     height: 350px;
     position: absolute;
 }
 .izquierdo {
-    width: 45vw;
+    width: 67vw;
     height: 450px;
     /* background-color: aliceblue; */
     /* margin-left: 20px; */
@@ -36,7 +37,31 @@
 }
 
 .hija{
-width:40vw;
+width:65vw;
 height: 350px;
 position: absolute; right: 20px;
+}
+
+.padre1{
+    background-color: blue;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+align-items: flex-end;
+
+}
+
+.derecho1{
+    width: 30vw;
+    height: 450px;
+position: relative;bottom: 0px;
+}
+
+
+
+.hijo1{
+    width: 28vw;
+    height: 350px;
+    position: absolute; 
+    
 }
