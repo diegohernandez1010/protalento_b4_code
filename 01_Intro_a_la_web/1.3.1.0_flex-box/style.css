@@ -6,14 +6,16 @@
     background-color: blue;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    position: relative;
 }
+
 
 .hijo {
     width: 30vw;
     height: 120px;
     margin-right: 20px;
-    position: ablute;
+    
 }
 
 .hija {
@@ -28,6 +30,7 @@
     background-color: blue;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .primo {
@@ -44,23 +47,21 @@
 
 .blanco {
     background-color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
        /* margin right: ; 100vw; */
     /* position: absolute; */
-    
+    }
+
+     
     
 
-}
 .margin-derecho{
-    margin-right:50px;
-    position: absolute;
-    width: 10vw;
+    width: 60vw;
     height: 120px;
-   
+position: absolute; right: 0px;
+}
+         
+    
 
-}
-/* .margin-izquierdo{ */
-    margin-left: 10vw;
-    width: 30vw;
-    height: 120px;
-    margin-right: 20px;
-}
+
