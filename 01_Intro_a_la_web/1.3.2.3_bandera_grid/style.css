@@ -1,0 +1,70 @@
+h2 {
+    font-size: 1em;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    /* grid-template-areas: "cuadro1 cuadro1 cuadro1"  */
+    ;  
+    grid-template-rows: 23vw 20vw;
+    background-color: blue;
+    grid-column-gap: 10vw;
+    grid-row-gap: 10vw;
+    align-items: end;
+}
+
+
+.pequeño {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: flex-end; */
+    height: 20vw;
+    width: 25vw;
+    
+}
+
+.rojo {
+    background-color: red;
+     
+
+}
+
+.blanco {
+    background-color: aliceblue;
+
+}
+
+.cuadro1 {
+    height: 23vw;
+    width: 30vw;
+    /* display: grid; */
+    /* align-items: end; */
+  }
+
+.cuadro2 {
+    /* padding: 1vw; */
+    width: 30vw;
+    height: 23vw;
+    display: grid;
+    align-items: end;
+    
+}
+
+.rectangulo1 {
+    height: 23vw;
+    width: 60vw;
+
+}
+ 
+.grande{
+    width: 53vw;
+    height: 20vw;
+    margin-left: 6vw;
+}
+.rectangulo2 {
+    height: 23vw;
+    width: 60vw;
+    display: grid;
+    align-items: end;}
